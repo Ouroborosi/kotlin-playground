@@ -10,8 +10,7 @@ plugins {
 
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.spring") version kotlinVersion
-    kotlin("plugin.noarg") version kotlinVersion
-
+    
     // Use JPA plugin for data class default constructor
     kotlin("plugin.jpa") version kotlinVersion
 
