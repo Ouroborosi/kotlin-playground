@@ -16,7 +16,7 @@ Here's the Vagrant box this project is using: [centos-7-postgres-10](https://app
     kotlin("plugin.jpa") version kotlinVersion
 ```
 
-- _kotlin-spring_ 
+- **_kotlin-spring_**
 ([EN](https://kotlinlang.org/docs/reference/compiler-plugins.html#spring-support) | [中文](http://www.liying-cn.net/kotlin/docs/reference/compiler-plugins.html#spring-%E6%94%AF%E6%8C%81)): 
 When you use Spring, you don't need all the classes to be open, 
 but only classes annotated with specific annotations like @Configuration or @Service. 
@@ -34,7 +34,7 @@ default supports annotations:
     - @Service
     - @Repository
 
-- _kotlin-jpa_ ([EN](https://kotlinlang.org/docs/reference/compiler-plugins.html#jpa-support) | [中文](http://www.liying-cn.net/kotlin/docs/reference/compiler-plugins.html#jpa-%E6%94%AF%E6%8C%81)): 
+- **_kotlin-jpa_** ([EN](https://kotlinlang.org/docs/reference/compiler-plugins.html#jpa-support) | [中文](http://www.liying-cn.net/kotlin/docs/reference/compiler-plugins.html#jpa-%E6%94%AF%E6%8C%81)): 
 _kotlin-jpa_ is a wrapped on top of _no-arg_. 
 The plugin specifies JPA's annotations automatically. 
 The _no-arg_ ([EN](https://kotlinlang.org/docs/reference/compiler-plugins.html#no-arg-compiler-plugin) | [中文](http://www.liying-cn.net/kotlin/docs/reference/compiler-plugins.html#no-arg-%E7%BC%96%E8%AF%91%E5%99%A8%E6%8F%92%E4%BB%B6)) is a plugin helps to generate a default constructor for classes. 
